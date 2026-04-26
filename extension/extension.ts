@@ -4,7 +4,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { execSync } from 'child_process';
 
-const PYTHON_API_URL = 'http://localhost:8000';
+const PYTHON_API_URL = 'https://brain-fastapi-production.up.railway.app';
 
 interface FileDiff {
   filename: string;
